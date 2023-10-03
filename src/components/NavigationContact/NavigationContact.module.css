@@ -1,0 +1,66 @@
+.navigation {
+margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+  gap: 80px;
+  width: 100vh;
+
+}
+
+
+.navigation .nav-logo img {
+    display: flex;
+    height: 70px;
+    width: 60px;
+    margin-top: -50px;
+    padding-left: 40px;
+    margin-left: -200px;
+}
+
+
+.navigation ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  font-weight: bolder;
+  padding-left: 1px;
+  font-size: 30px;
+}
+
+/* Style the search container */
+.container1 {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 0px;
+
+}
+
+/* Style the input field */
+.container1 input[type="text"] {
+  border: rgb(113, 113, 244) solid;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+}
+
+/*
+.container1{
+    display: flex;
+    padding-left: 800px;
+    margin-bottom: 600px;
+    width: 200px;
+    height:40px;
+    text-align: center;
+    padding-top: -600px;
+} */
+.search {
+display: flex;
+align-items: center;
+color: blueviolet;
+text-align: center;
+
+
+}

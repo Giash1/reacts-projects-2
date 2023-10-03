@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;300;400;500&family=Rowdies:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+body{
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Ubuntu', sans-serif;
+background-image: url("/images/balans.jpg") ;
+/* max-width: 1280px; */
+
+height: auto;
+align-items: center;
+justify-content: center;
+padding: 300px 300px;
+position: relative;
+
+
+}
+*{
+    margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container-main {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: end;
+}

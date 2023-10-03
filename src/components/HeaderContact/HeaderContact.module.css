@@ -1,0 +1,48 @@
+
+/* HeaderContact.module.css */
+
+/* Style for the main container */
+.contact-header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the title */
+.contact-header h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the input container */
+.contact-header-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Style for the custom input fields */
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+.contact-header-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.contact-header-button:hover {
+  background-color: #0056b3;
+}
